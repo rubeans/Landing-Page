@@ -1,1 +1,1 @@
-Just a simple landing project.
+Just a simple landing page project.
