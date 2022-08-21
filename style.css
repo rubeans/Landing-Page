@@ -172,12 +172,12 @@ body {
     border-radius   : 6px;
 }
 
-.signUp-heading{
+.signUp-heading {
     font-weight: normal;
 }
 
-.signUp-p{
-    color: #E5E7EB;
+.signUp-p {
+    color    : #E5E7EB;
     font-size: 12px;
 }
 
@@ -190,3 +190,12 @@ body {
 }
 
 /* FOOTER */
+
+#footer-container {
+    background-color: #1F2937;
+    color           : #E5E7EB;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    padding         : 32px 0;
+}
