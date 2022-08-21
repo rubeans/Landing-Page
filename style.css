@@ -93,35 +93,65 @@ body {
 .about-container {
     display       : flex;
     flex-direction: column;
+    padding       : 0px 350px;
+    margin-bottom : 90px;
 }
 
 .about-heading {
-    font-size  : 36px;
-    font-weight: 900;
-    color      : #1F2937;
-    text-align : center;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    margin         : 32px 0;
+    font-size      : 36px;
+    font-weight    : 900;
+    color          : #1F2937;
 }
 
-.boxes {
+.box-container {
     display        : flex;
     justify-content: center;
     gap            : 32px;
 }
 
-.box-container {
+.boxes {
     display       : flex;
     flex-direction: column;
     align-items   : center;
-    /* flex          : 1; */
 }
 
+
+
 .box {
-    width        : 100px;
-    height       : 100px;
+    width        : 150px;
+    height       : 150px;
     border       : 2px solid #3882F6;
     border-radius: 9px;
 }
 
 .about-description {
     text-align: center;
+    margin-top: 7px;
+}
+
+/* QUOTE */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display         : flex;
+    flex-direction  : column;
+    padding         : 90px 350px;
+}
+
+.quote {
+    font-size  : 36px;
+    color      : rgb(92, 88, 88);
+    font-weight: lighter;
+}
+
+.who-said-it {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: bold;
+    color      : #1F2937;
+    margin-top: 7px;
 }
