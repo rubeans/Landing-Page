@@ -10,13 +10,14 @@
 </head>
 
 <body>
-  <header class="header-container">
+  <!-- HEADER -->
+  <header id="header-container">
     <div class="logo-and-links">
       <h1 class="header-logo">Header Logo</h1>
       <ul class="list">
-        <li><a class="links" href="#about">About</a></li>
-        <li><a class="links" href="#quote">Quote</a></li>
-        <li><a class="links" href="#sign-up">Sign Up</a></li>
+        <li><a class="links" href="#about-container">About</a></li>
+        <li><a class="links" href="#quote-container">Quote</a></li>
+        <li><a class="links" href="#signUp-container">Sign Up</a></li>
       </ul>
     </div>
     <div class="intro">
@@ -31,8 +32,9 @@
       </figure>
     </div>
   </header>
-  <section class="about-container">
-    <h1 class="about-heading">Some random information.</h1>
+  <!-- ABOUT -->
+  <section id="about-container">
+    <h2 class="about-heading">Some random information.</h2>
     <div class="box-container">
       <div class="boxes">
         <div class="box"></div>
@@ -52,20 +54,27 @@
       </div>
     </div>
   </section>
-  <section class="quote-container">
+  <!-- QUOTE -->
+  <section id="quote-container">
     <blockquote class="quote"><i>I learned a lot from my mistakes so I decided to make more mistakes to learn more.</i></blockquote>
     <span class="who-said-it">-Someone, On The Internet</span>
   </section>
-
-  <section class="sign-container">
-    <div id="sign-up">
-      Sign-Up
+  <!-- SIGIN-UP -->
+  <section id="signUp-container">
+    <div class="sign-up">
+      <div class="signUp-left">
+        <h3 class="signUp-heading">Call to action! It's time!</h3>
+        <p class="signUp-p">Sign up for our product by clicking that button right over there!</p>
+      </div>
+      <div class="signUp-right">
+        <button class="signUp-btn">Sign up</button>
+      </div>
     </div>
   </section>
-  <footer class="footer-container">
+  <!-- FOOTER -->
+  <footer id="footer-container">
     <span>Copyright &copy; Rubens Guilherme 2022</span>
   </footer>
-
 </body>
 
 </html>
