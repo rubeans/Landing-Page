@@ -199,3 +199,7 @@ body {
     align-items     : center;
     padding         : 32px 0;
 }
+
+button:hover {
+    cursor: pointer;
+}
